@@ -134,6 +134,25 @@ a { color: var(--tangerine); }
 .hero--story .lead { margin-bottom: 0; }
 .hero .btn { margin-bottom: 26px; }
 
+.endorse {
+  display: flex; align-items: center; gap: 14px;
+  width: fit-content; max-width: 520px; margin: 0 auto 24px;
+  padding: 12px 22px 12px 12px;
+  background: var(--warm-white);
+  border: 1px solid rgba(255, 143, 41, 0.2);
+  border-radius: 999px;
+  box-shadow: var(--shadow-soft);
+  text-align: left;
+}
+.endorse__logo { width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0; }
+.endorse__text p { margin: 0 0 2px; font-size: 0.98rem; color: var(--soft-ink); }
+.endorse__text b { font-family: "Fredoka", sans-serif; font-weight: 500; color: var(--ink); }
+.endorse__text a {
+  font-family: "Fredoka", sans-serif; font-weight: 500;
+  color: var(--tangerine); text-decoration: none;
+}
+.endorse__text a:hover { text-decoration: underline; }
+
 .scroll-side {
   position: fixed;
   right: clamp(16px, 3.5vw, 36px);
